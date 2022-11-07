@@ -11,12 +11,12 @@ public class HttpServer extends AbstractServer {
     }
 
     @Override
-    public String sendPostRequest() {
-        return "Отправка POST-запроса класса HttpRequest";
+    public void sendPostRequest() {
+        System.out.println("Отправка POST-запроса класса HttpRequest");
     }
 
     @Override
-    public String sendGetRequest() {
-        return "Отправка GET-запроса класса HttpRequest";
+    public void sendGetRequest() {
+        System.out.println("Отправка GET-запроса класса HttpRequest");
     }
 }

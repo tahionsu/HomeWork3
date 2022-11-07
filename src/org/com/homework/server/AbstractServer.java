@@ -22,8 +22,8 @@ public abstract class AbstractServer implements Server {
     }
 
     @Override
-    public abstract String sendPostRequest();
+    public abstract void sendPostRequest();
 
     @Override
-    public abstract String sendGetRequest();
+    public abstract void sendGetRequest();
 }

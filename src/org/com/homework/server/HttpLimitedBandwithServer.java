@@ -10,12 +10,12 @@ public class HttpLimitedBandwithServer extends HttpServer {
     }
 
     @Override
-    public String sendPostRequest() {
-        return "Отправка POST-запроса класса HttpLimitedBandwithServer";
+    public void sendPostRequest() {
+        System.out.println("Отправка POST-запроса класса HttpLimitedBandwithServer");
     }
 
     @Override
-    public String sendGetRequest() {
-        return "Отправка GET-запроса класса HttpLimitedBandwithServer";
+    public void sendGetRequest() {
+        System.out.println("Отправка GET-запроса класса HttpLimitedBandwithServer");
     }
 }
