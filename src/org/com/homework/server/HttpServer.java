@@ -10,14 +10,13 @@ public class HttpServer extends AbstractServer {
     public HttpServer() {
     }
 
-
     @Override
     public String sendPostRequest() {
-        return null;
+        return "Отправка POST-запроса класса HttpRequest";
     }
 
     @Override
     public String sendGetRequest() {
-        return null;
+        return "Отправка GET-запроса класса HttpRequest";
     }
 }
