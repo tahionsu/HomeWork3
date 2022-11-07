@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42154c74-b93f-4134-a7ac-09a00cce57f2" name="Changes" comment="" />
+    <list default="true" id="42154c74-b93f-4134-a7ac-09a00cce57f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/com/homework/exception/CustomUncheckExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/com/homework/exception/RequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/com/homework/random/RandomDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/com/homework/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/com/homework/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/com/homework/exception/ConnException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/com/homework/exception/ConnException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/com/homework/server/AbstractServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/com/homework/server/AbstractServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/com/homework/server/HttpLimitedBandwithServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/com/homework/server/HttpLimitedBandwithServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/com/homework/server/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/com/homework/server/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/com/homework/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/com/homework/server/Server.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -1,7 +1,9 @@
 package org.com.homework.server;
 
-public interface Server {
-    public void sendPostRequest();
+import org.com.homework.exception.RequestException;
 
-    public void sendGetRequest();
+public interface Server {
+    public void sendPostRequest() throws RequestException;
+
+    public void sendGetRequest() throws RequestException;
 }

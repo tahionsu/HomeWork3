@@ -1,5 +1,7 @@
 package org.com.homework.server;
 
+import org.com.homework.exception.RequestException;
+
 public abstract class AbstractServer implements Server {
 
     protected String address;
@@ -22,8 +24,12 @@ public abstract class AbstractServer implements Server {
     }
 
     @Override
-    public abstract void sendPostRequest();
+    public abstract void sendPostRequest() throws RequestException;
 
     @Override
-    public abstract void sendGetRequest();
+    public abstract void sendGetRequest() throws RequestException;
+
+    public void closeConnection() {
+        System.out.println("Соединение закрыто");
+    }
 }
